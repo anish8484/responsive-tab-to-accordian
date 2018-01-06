@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/responsive-tabs.css " />
+           <!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <title>Responsive Tabs to Accordion</title>
+   
+</head>
+<body>
+    <h1>Responsive Tabs to Accordion</h1>
+      
+	<div class="container">
+		<input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+		<input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+		<input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
+		<input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
+
+	<div class="tabs flex-tabs">
+		<label for="tab-one" id="tab-one-label" class="tab">Option 1</label>
+		<label for="tab-two" id="tab-two-label" class="tab">Option 2</label>
+		<label for="tab-three" id="tab-three-label" class="tab">Option 3</label>
+		<label for="tab-four" id="tab-four-label" class="tab">Option 4</label>
+
+    <div id="tab-one-panel" class="panel active">
+      <h3>Heading 1</h3>
+     </div>
+    <div id="tab-two-panel" class="panel">
+	 <h3>Heading 2</h3>
+     
+    </div>
+    <div id="tab-three-panel" class="panel">
+	 <h3>Heading 3</h3>
+     
+    </div>
+    <div id="tab-four-panel" class="panel">
+	 <h3>Heading 4</h3>
+     
+      </div>
+     </div>
+
+   </div>
+    
+  
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/responsiveTabs.js"></script>
+</body>
+</html>
